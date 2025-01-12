@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 
-title = "同色击破+支援的积蓄效率"
-result_path = f'Miyabi/{title}.json'
+title = "耀嘉音影画对自身输出占比的影响"
+result_path = f'Astra/{title}.json'
 df = pd.read_csv('source.csv')
 
 json_data = df.to_json(orient='records')
